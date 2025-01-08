@@ -35,7 +35,6 @@
     ></script>
 
     <!-- Todo: remove the below script once you finish your portfolio -->
-    <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
   </head>
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
@@ -48,12 +47,15 @@
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Alinda Byamukama</span>
           <br />
-          I'm a Software Engineer.
+          I am a Software Developer and Lawyer
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
             >Know more</a
           >
+        </p>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects">Projects</a>
         </p>
       </div>
     </section>
@@ -71,7 +73,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile_ab_2.jpg"
+                src="assets/profile_ab_3-round.png"
                 alt="Profile Image"
               />
             </div>
@@ -94,9 +96,9 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/cv.pdf"
+                  href="assets/resume_0.pdf"
                 >
-                  View curriculum vitae
+                  View Resume
                 </a>
               </span>
             </div>
@@ -121,7 +123,7 @@
                   <p class="mb-4">
                     In collaboration with <a href="https://agripoint.ug/" target="_blank">Agripoint Initiatives Ltd</a>,               
                     Grain Council Uganda and Refactory, my team and I spent our Refactory Bootcamp internship solving the problem presented to us 
-                    - how to keep track of and gain insights from data collected at grain warehouses in Uganda.
+                    - how to keep track of and gain insights from data collected at grain warehouses in Uganda. We developed a system designed especially for the management of grain warehouses in Uganda.
                   </p>
                 </div>
                 <a
@@ -138,7 +140,7 @@
                   class="cta-btn text-color-main"
                   href="#"
                 >
-                  Source Code Repo (Currently Private - Pending Approval)
+                PRIVATE REPOSITORY
                 </a>
               </div>
             </div>
@@ -158,17 +160,21 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Robofriends</h3>
+                <h3 class="project-wrapper__text-title">Miniblog API</h3>
                 <div>
                   <p class="mb-4">
-                    The Robofriends web app retrieves data on robot friends from the {JSON} Placeholder API and generates robot images from the Robohash website.
+                    This is a simple blogging API built using the Django web framework and Django REST framework during the <a href="https://tunga.io/tech-impact-academy/" target="_blank" rel="noopener noreferrer">Tunga Impact Academy</a> Python Backend Development bootcamp.
+                    <br>
+                    It allows users to create, read, update, and delete blog posts, providing a basic platform for content management and publication.
+                    The application is designed with RESTful API endpoints to facilitate seamless integration with various front-end
+                    frameworks or client applications.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://alindabyamukama.github.io/robofriends/"
+                  href="https://django-miniblog.onrender.com"
                 >
                   See Live
                 </a>
@@ -176,7 +182,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/alindaByamukama/robofriends"
+                  href="https://github.com/alindaByamukama/django-miniblog"
                 >
                   Source Code
                 </a>
@@ -184,7 +190,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://alindabyamukama.github.io/robofriends/" target="_blank">
+                <a rel="noreferrer" href="https://django-miniblog.onrender.com" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -193,9 +199,9 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="Python and Django Logo"
                       class="img-fluid"
-                      src="assets/robofriends.png"
+                      src="assets/python-django-logo.png"
                     />
                   </div>
                 </a>
@@ -203,6 +209,40 @@
             </div>
           </div>
           <!-- /END Project -->
+
+<!-- Notice: each .row is a project -->
+<div class="row">
+  <div class="col-lg-4 col-sm-12">
+    <div class="project-wrapper__text load-hidden">
+      <h3 class="project-wrapper__text-title">Smart Brain App</h3>
+      <div>
+        <p class="mb-4">
+          A face detection web application created with React using the <a href="https://www.clarifai.com/models/ai-face-detection" target="_blank" rel="noopener noreferrer">Clarifai API - Face Detection Model</a>.
+        </p>
+      </div>
+      <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+        href="https://alindabyamukama.github.io/smart-brain-frontend/">
+        See Live
+      </a>
+      <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+        href="https://github.com/alindaByamukama/smart-brain-frontend">
+        Source Code
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-8 col-sm-12">
+    <div class="project-wrapper__image load-hidden">
+      <a rel="noreferrer" href="https://alindabyamukama.github.io/smart-brain-frontend/" target="_blank">
+        <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+          class="thumbnail rounded js-tilt">
+          <img alt="Smart Brain Project Image" class="img-fluid" src="assets/smart-brain-app.png" />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /END Project -->
+
 
           <!-- Notice: each .row is a project -->
           <div class="row">
@@ -253,6 +293,7 @@
             </div>
           </div>
           <!-- /END Project -->
+
         </div>
       </div>
     </section>
@@ -263,7 +304,7 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">Available for work opportunities.</p>
+          <p class="contact-wrapper__text">Available for frontend development and media communications positions.</p>
           <a
             rel="noreferrer"
             target="_blank"
@@ -287,24 +328,23 @@
           <a rel="noreferrer" href="https://twitter.com/alindabyamukama?lang=en" target="_blank">
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="https://ug.linkedin.com/in/alindabyamukama-b8980120b" target="_blank">
+          <a rel="noreferrer" href="https://ug.linkedin.com/in/alindabyamukama" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a rel="noreferrer" href="https://github.com/alindaByamukama" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
-
+      
         <hr />
-
+      
         <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
           © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank">Jacobo Martínez</a>
         </p>
-
+    </footer>
+      
     <script defer type="module" src="index.js"></script>
   </body>
 </html>
